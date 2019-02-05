@@ -8,7 +8,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "build": "npm run build",
+    "build": "npm run clean && ngc -p tsconfig-aot.json",
     "clean": "rimraf dist",
     "copy:release": "node tools/package.json-cleanup.js && copyfiles README.md LICENSE.md dist",
     "preversion": "npm test && npm run build",
