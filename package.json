@@ -7,7 +7,6 @@
     "url": "git+https://github.com/cstefanache/angular2-img-cropper.git"
   },
   "scripts": {
-    "install": "npm run build",
     "tsc": "tsc",
     "build": "npm run clean && ngc -p tsconfig-aot.json",
     "clean": "rimraf dist",
