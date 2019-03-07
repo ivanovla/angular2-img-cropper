@@ -18,4 +18,5 @@ runtime
 /.npmignore
 /make.js
 /.idea
+dist
 yarn.lock
